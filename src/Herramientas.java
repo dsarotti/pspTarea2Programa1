@@ -3,9 +3,6 @@
  */
 public class Herramientas {
 
-
-
-    
     /** 
      * Comprueba si el parámetro de entrada contiene
      * únicamente un número entero o no
