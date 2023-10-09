@@ -14,12 +14,14 @@ public class ProgramaUno {
             System.exit(1);
         }else{
             for (String string : args) {
-                if (string != ""){
+                if (!string.isEmpty()){
                     if (!Herramientas.comprobarSiEsInt(string)){
                     System.exit(2);
                 }else if (Integer.parseInt(string)<0){      
                     System.exit(3);
                 }
+            }else {
+                System.exit(1);
             }
             System.exit(0);   
             }
